@@ -176,6 +176,7 @@ img {
 
 .features-icon-wrapper {
   padding: 24px 0;
+  margin-bottom: 8px;;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   background-color: #f4f4fd;
@@ -232,6 +233,29 @@ img {
   padding: 32px 0;
 }
 
+.team-item .item-text {
+  margin-bottom: 8px;
+}
+
+.social-links-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-links-item .link {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  color: #fff;
+}
+
+.social-links-icon {
+  fill: currentColor;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -255,6 +279,15 @@ img {
   background-color: #2e2f42;
 }
 
+.page-footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-info {
+  margin-right: 120px;
+}
+
 .page-footer .page-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -269,4 +302,17 @@ img {
   max-width: 264px;
   line-height: 1.5;
   color: #f4f4fd;
+}
+
+.page-footer .social-links-list {
+  justify-content: start;
+}
+
+.social-media-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
 }
